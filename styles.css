@@ -1,0 +1,108 @@
+html {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 0.9em;
+    color: #424242;
+    line-height: 1.5em;
+    
+  }
+  
+  body {
+    background-color: #ffffff;
+    
+  }
+  
+  header {
+    font-size: 1.6em;
+    color: black;
+  }
+  
+  code {
+    display: block;
+    background-color: #f4f4f4;
+    line-height: 2em;
+    margin: 10px;
+  }
+  
+  /* styling for navbar */
+  
+  #navbar>header {
+    font-size: 2em;
+    border-bottom: solid 1px black;
+    padding-bottom: 10px;
+  
+  }
+  
+  .nav-link {
+    box-sizing: border-box;
+    margin: 0;
+    display: block;
+    font-size: 1.1em;
+    color: #424242;
+    text-decoration: none;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+  
+  }
+  
+  
+  #navbar {
+    
+    padding-top: 10px;
+    
+  
+  
+  }
+  
+  main {
+     padding-top: 20px;
+      padding-left: 10px;
+  }
+  
+  a {
+    color: #424242;
+  }
+  
+  
+  @media (max-width: 1600px) and (min-width: 768px) {
+  main {
+    width: auto;
+    display: block; 
+    position: absolute; 
+    top: 0;
+    left: 270px;
+  
+  }
+  
+  #navbar {
+    width: 260px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: 1; 
+    border-style: solid;
+    border-width: 0 2.5px 0 0;
+    border-color: #b2b2b2;
+  }
+  #navbar>header{
+    margin: 2px;
+  }
+  }
+  
+  @media (max-width: 768px) {
+    #navbar {
+      width: auto;
+      height: 250px;
+      overflow-y: scroll;
+      
+  
+    }
+  
+    #navbar>header {
+      text-align: center;
+    }
+    
+  }
